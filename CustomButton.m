@@ -2,8 +2,8 @@
 //  CustomButton.m
 //  3DTouch
 //
-//  Created by Tensab San on 8/30/16.
-//  Copyright © 2016 Tensab San. All rights reserved.
+//  Created by Priyanka Naidu  on 8/30/16.
+//  Copyright © 2016 Priyanka Naidu. All rights reserved.
 //
 
 #import "CustomButton.h"
@@ -20,8 +20,6 @@ IB_DESIGNABLE
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     
-    //if (type)
-    //UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:10.0];
     UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:rect];
     [stroke setStroke];
     [color setFill];
